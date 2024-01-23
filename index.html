@@ -13,9 +13,12 @@
     <h1>Bjarnehall web dev</h1>
     </header>
     <article>
-    <p>På denna <script>console.log("sajt");</script>kommer jag att
+    <p>På denna <span id="js-output"></span> kommer jag att
     flexa mina skills</p>
     </article>
+    <script>
+        document.getElementById("js-output").innerText = "sajt";
+    </script>
     </p>
 </body>
 </html>
