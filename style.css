@@ -1,16 +1,42 @@
+@import 'css/reset.css';
+
 html {
     font-size: 100%;
     font-family: sans-serif;
     background-color: rgb(242, 236, 229);
 }
 
-article {
-    margin-left: 10%;
-    margin-top: 1rem;
-    padding: 10px;
+.header {
+    background-image: url('img/paper-1074131.jpg');
+    max-width: 100%;
+    height: 8rem;
+    background-size: cover;
 }
 
-header {
-    margin-left: 10%;
-    padding: 10px;
+article {
+    padding: 1rem;
+    max-width: 700px;
+}
+
+
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.3; 
+    margin: 1.43rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.3; 
+    margin: 1.43rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.3;
+}
+
+header h1 {
+    font-weight: 400;
 }
