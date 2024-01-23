@@ -1,0 +1,16 @@
+html {
+    font-size: 100%;
+    font-family: sans-serif;
+    background-color: rgb(242, 236, 229);
+}
+
+article {
+    margin-left: 10%;
+    margin-top: 1rem;
+    padding: 10px;
+}
+
+header {
+    margin-left: 10%;
+    padding: 10px;
+}
