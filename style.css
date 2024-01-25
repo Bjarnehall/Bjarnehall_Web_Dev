@@ -1,50 +1,10 @@
 @import 'css/reset.css';
-
-html {
-    font-size: 100%;
-    font-family: sans-serif;
-    background-color: rgb(242, 236, 229);
-    color: #323232;
-}
-
-.header {
-    /*background-image: url('img/paper-1074131.jpg');*/
-    background-color: #355268;
-    max-width: 100%;
-    height: 150px;
-    background-size: cover;
-    border-bottom: solid #182631 4px;
-}
-
-article {
-    padding: 1rem;
-    max-width: 700px;
-}
+@import 'css/color.css';
+@import 'css/typo.css';
+@import 'css/main.css';
+@import 'css/header.css';
+@import 'css/nav.css';
+@import 'css/objects.css';
 
 
 
-h2 {
-    font-size: 1.5rem;
-    line-height: 1.3; 
-    margin: 1.43rem;
-}
-
-p {
-    font-size: 1.1rem;
-    line-height: 1.3; 
-    margin: 1.43rem;
-}
-
-
-
-h1 {
-    font-size: 3.5rem;
-    line-height: 1.3;
-    color: #323232ce;
-}
-
-.logo img {
-    width: 120px;
-    border-radius: 50%;
-    padding: 1rem;
-}
